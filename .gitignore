@@ -9,7 +9,7 @@ __pycache__/
 # macOS system files
 .DS_Store
 
-# VS Code 
+# VS Code
 .vscode/
 
 # Jupyter Notebook checkpoints
@@ -18,16 +18,7 @@ __pycache__/
 # Environment variables file
 .env
 
-# Runtime logs
+# Runtime logs and generated data
 logs/
-__pycache__/
-*.pyc
-
-# Sensor data
-*.csv
-
-# Cron output
 *.log
-
-# Crontab files
-deploy/crontablogs/
+*.csv
