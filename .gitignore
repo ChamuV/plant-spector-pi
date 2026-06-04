@@ -16,4 +16,4 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Environment variables file
-.env
+.envlogs/
