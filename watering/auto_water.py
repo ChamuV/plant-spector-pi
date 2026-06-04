@@ -4,7 +4,7 @@ from datetime import datetime
 
 from utils.adc import create_spi, read_adc
 from utils.pump import create_pump, run_pump
-from utils.logger import log_measurement
+from utils.logger import log_moisture
 
 from watering.config import (
     SPI_BUS,
@@ -30,6 +30,7 @@ def main() -> None:
     pump = create_pump(PUMP_PIN)
 
     try:
+
         moisture_value = read_adc(
             spi,
             ADC_CHANNEL
@@ -62,10 +63,11 @@ def main() -> None:
                 f"{PUMP_SECONDS} seconds"
             )
 
-            log_measurement(
+            log_moisture(
+                channel=ADC_CHANNEL,
                 moisture=moisture_value,
                 pump_on=True,
-                duration=PUMP_SECONDS
+                duration_seconds=PUMP_SECONDS
             )
 
         else:
@@ -77,10 +79,11 @@ def main() -> None:
 
             pump.off()
 
-            log_measurement(
+            log_moisture(
+                channel=ADC_CHANNEL,
                 moisture=moisture_value,
                 pump_on=False,
-                duration=0
+                duration_seconds=0
             )
 
     finally:
