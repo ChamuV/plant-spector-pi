@@ -17,3 +17,17 @@ __pycache__/
 
 # Environment variables file
 .env
+
+# Runtime logs
+logs/
+__pycache__/
+*.pyc
+
+# Sensor data
+*.csv
+
+# Cron output
+*.log
+
+# Crontab files
+deploy/crontab

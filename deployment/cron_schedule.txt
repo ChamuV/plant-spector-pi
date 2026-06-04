@@ -1,0 +1,5 @@
+# Test schedule
+*/2 * * * * cd /path/to/plant-spector-pi && /usr/bin/python3 -m watering.auto_water >> logs/cron.log 2>&1
+
+# Production schedule
+# 0 */4 * * * cd /path/to/plant-spector-pi && /usr/bin/python3 -m watering.auto_water >> logs/cron.log 2>&1
