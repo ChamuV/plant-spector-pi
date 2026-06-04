@@ -30,4 +30,4 @@ __pycache__/
 *.log
 
 # Crontab files
-deploy/crontab
+deploy/crontablogs/
