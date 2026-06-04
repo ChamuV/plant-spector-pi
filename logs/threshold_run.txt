@@ -1,0 +1,137 @@
+chamu-v@chamu-pi:~/plant-spector-pi $ python3 watering/moisture_test.py
+CH0: 1023
+CH0: 1023
+CH0: 1023
+CH0: 1023
+CH0: 1023
+CH0: 1023
+^C
+Stopping moisture test
+chamu-v@chamu-pi:~/plant-spector-pi $ python3 watering/moisture_test.py
+CH0: 257
+CH0: 268
+CH0: 256
+CH0: 268
+CH0: 256
+CH0: 257
+CH0: 257
+CH0: 257
+CH0: 271
+CH0: 271
+CH0: 268
+CH0: 259
+CH0: 257
+CH0: 256
+CH0: 268
+CH0: 257
+CH0: 257
+CH0: 256
+CH0: 257
+CH0: 268
+CH0: 256
+CH0: 256
+CH0: 257
+CH0: 270
+CH0: 256
+^C
+Stopping moisture test
+chamu-v@chamu-pi:~/plant-spector-pi $ python3 watering/moisture_test.py
+CH0: 132
+CH0: 128
+CH0: 134
+CH0: 136
+CH0: 134
+CH0: 135
+CH0: 128
+CH0: 131
+CH0: 131
+CH0: 128
+CH0: 131
+CH0: 136
+CH0: 128
+CH0: 130
+CH0: 137
+CH0: 136
+CH0: 136
+CH0: 136
+CH0: 137
+CH0: 136
+CH0: 136
+CH0: 140
+CH0: 140
+CH0: 128
+CH0: 140
+CH0: 143
+CH0: 142
+CH0: 140
+CH0: 129
+CH0: 129
+CH0: 140
+CH0: 140
+CH0: 136
+CH0: 136
+CH0: 136
+CH0: 136
+CH0: 143
+CH0: 140
+CH0: 129
+CH0: 142
+CH0: 129
+CH0: 140
+CH0: 140
+CH0: 128
+CH0: 128
+CH0: 129
+CH0: 143
+CH0: 128
+CH0: 143
+CH0: 131
+CH0: 128
+CH0: 129
+CH0: 129
+CH0: 140
+^C
+Stopping moisture test
+chamu-v@chamu-pi:~/plant-spector-pi $ python3 watering/moisture_test.py
+CH0: 2
+CH0: 9
+CH0: 0
+CH0: 2
+CH0: 2
+CH0: 3
+CH0: 14
+CH0: 12
+CH0: 3
+CH0: 12
+CH0: 8
+CH0: 12
+CH0: 12
+CH0: 12
+CH0: 32
+CH0: 9
+CH0: 32
+CH0: 33
+CH0: 14
+CH0: 32
+CH0: 9
+CH0: 33
+CH0: 32
+CH0: 48
+CH0: 12
+CH0: 15
+CH0: 32
+CH0: 15
+CH0: 33
+CH0: 15
+CH0: 12
+CH0: 34
+CH0: 32
+CH0: 12
+CH0: 33
+CH0: 32
+CH0: 12
+CH0: 32
+CH0: 12
+^C
+Stopping moisture test
+chamu-v@chamu-pi:~/plant-spector-pi $ 

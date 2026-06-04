@@ -1,0 +1,10 @@
+# watering/config.py
+
+PUMP_PIN = 4
+PUMP_SECONDS = 2
+
+SPI_BUS = 0
+SPI_DEVICE = 0
+ADC_CHANNEL = 0
+
+DRY_THRESHOLD = 200
